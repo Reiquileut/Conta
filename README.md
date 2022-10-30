@@ -1,5 +1,5 @@
 # Conta
-Modelo de Conta utilizando a linguagem java
+Banco digital NossoBanco
 
-Testes UNITARIOS 
-sCRUM
+
+
