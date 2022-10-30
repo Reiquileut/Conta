@@ -216,4 +216,9 @@ dist/
 nbdist/
 .nb-gradle/
 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 # End of https://www.toptal.com/developers/gitignore/api/java,netbeans,eclipse,intellij
