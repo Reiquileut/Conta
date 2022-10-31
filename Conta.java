@@ -5,6 +5,14 @@ public class Conta {
     private Cliente titular;
 
 
+    public void deposita(double valor){
+        this.saldo += valor;
+    }
+
+
+
+
+
     public double getSaldo() {
         return saldo;
     }
