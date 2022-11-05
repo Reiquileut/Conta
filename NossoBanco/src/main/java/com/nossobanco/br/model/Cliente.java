@@ -1,3 +1,5 @@
+package com.nossobanco.br.model;
+
 public class Cliente {
     private String nome;
     private String cpf;

@@ -1,3 +1,7 @@
+package com.nossobanco.br.model;
+
+import java.util.Objects;
+
 public class Conta {
     private double saldo;
     private int agencia;
@@ -6,12 +10,17 @@ public class Conta {
 
 
     public void deposita(double valor){
+
         this.saldo += valor;
     }
 
 
 
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(saldo, agencia, conta, titular);
+    }
 
     public double getSaldo() {
         return saldo;
