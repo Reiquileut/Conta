@@ -1,6 +1,7 @@
-public class ContaCorrente extends Conta{
+package com.nossobanco.br.model;
 
-    public static void main(String[] args) {
-        System.out.println("oi");
-    }
-}
+import com.nossobanco.br.model.Conta;
+
+public class ContaCorrente extends Conta {
+
+ }

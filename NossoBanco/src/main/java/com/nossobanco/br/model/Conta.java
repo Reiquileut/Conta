@@ -9,9 +9,10 @@ public class Conta {
     private Cliente titular;
 
 
-    public void deposita(double valor){
+    public double deposita(double valor){
 
         this.saldo += valor;
+        return valor;
     }
 
 
