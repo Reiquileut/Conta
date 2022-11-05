@@ -18,8 +18,8 @@ class NossoBancoApplicationTests {
     }
 
     @Test
-    void testandoSoma(){
+    void testDepositar(){
         Conta c = new Conta();
-
+        Assertions.assertEquals(100.0, c.deposita(100));
     }
 }
